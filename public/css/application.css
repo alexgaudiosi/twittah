@@ -1,0 +1,56 @@
+header {  
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+  opacity: 0.5;
+/*  header > * {
+    margin: auto 0;
+  }*/
+}
+
+  img {
+    width: 50px;
+  }
+
+  header a {
+    color: white;
+  }
+
+  header span { 
+    display: inline;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+
+  #login {
+    width: 50%;
+  }
+
+  header form {
+    /*display: inline;*/
+    position: absolute;
+    float: right;
+    margin-left: 800px;
+  }
+
+  .logo {    
+    margin-right: 50px; 
+    width: 50px;  
+    position: absolute;
+  }
+
+  body {
+    background-image: url('http://www.rapid-touch.com/wp-content/uploads/2014/02/background_light.jpg');
+    font-family: 'Source Code Pro';
+  }
+
+  #main {
+    width: 100%;
+  }
