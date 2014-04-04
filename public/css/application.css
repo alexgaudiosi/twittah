@@ -9,48 +9,117 @@ header {
   }*/
 }
 
-  img {
-    width: 50px;
-  }
+    img {
+      width: 50px;
+    }
 
-  header a {
-    color: white;
-  }
+    header a {
+      color: white;
+    }
 
-  header span { 
-    display: inline;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 30px;
-  }
+    header span { 
+      display: inline;
+      position: relative;
+      margin-left: 100px;
+    }
 
-  #wrapper {
-    width: 100%;
-  }
+    #wrapper {
+      width: 100%;
+    }
 
+    header #searchbar {
+      float: right;
+    }
 
-  #login {
-    width: 50%;
-  }
+    #login {
+      width: 50%;
+    }
 
-  header form {
-    /*display: inline;*/
-    position: absolute;
-    float: right;
-    margin-left: 800px;
-  }
+    .searchbar {
+      background-color: pink;
+    }
 
-  .logo {    
-    margin-right: 50px; 
-    width: 50px;  
-    position: absolute;
-  }
+    .searchbar input {
+      background-color: red;
+    }
+
+    header form {
+      /*display: inline;*/
+      position: absolute;
+      float: right;
+      margin-left: 800px;
+    }
+
+    .logo {    
+      margin-right: 50px; 
+      width: 50px;  
+      position: absolute;
+    }
 
   body {
-    background-image: url('http://www.rapid-touch.com/wp-content/uploads/2014/02/background_light.jpg');
+    background-image: url('../images/clouds.jpg');
     font-family: 'Source Code Pro';
+    color: grey;
+    font-size: 12px;
   }
 
   #main {
     width: 100%;
+    margin-top: 10px;
   }
+
+  .left-column {
+    width: 40%;
+    height: 400px;
+/*    background-color: red;
+*/    float: left;
+    border-radius: 10px; 
+  }
+
+  .center-column {
+    width: 39%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    border-radius: 10px; 
+    margin-left: 5px;
+  }
+
+  .right-column {
+    width: 20%;
+    height: 400px;
+    background-color: yellow;
+    float: right;
+    border-radius: 10px; 
+  }
+
+  .profpic {
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+.name {
+  color: white;
+}  
+
+.post {
+  border: 1px solid grey;
+  border-radius: 10px; 
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+.trends {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  float: right;
+  text-indent: 5px;  
+}
+
+.trends p {
+  color: blue;
+}
