@@ -1,9 +1,8 @@
 header {  
   height: 50px;
-  background-color: black;
+  background-color: white;
   color: white;
   padding: 0 20px;
-  opacity: 0.5;
 /*  header > * {
     margin: auto 0;
   }*/
@@ -24,80 +23,98 @@ header {
     }
 
     #wrapper {
-      width: 100%;
+      width: 900px;
+      margin-left: auto;
+      margin-right: auto;
     }
-
-    header #searchbar {
-      float: right;
-    }
-
-    #login {
-      width: 50%;
+    
+    .logo {    
+      width: 35%;
+      height: 50px;
+      float: left;
     }
 
     .searchbar {
-      background-color: pink;
+      margin-top: 8px;
+      height: 50px;
+      width: 20%;
+      float: left;
     }
 
     .searchbar input {
-      background-color: red;
-    }
-
-    header form {
-      /*display: inline;*/
-      position: absolute;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 14px;
+      text-align: center;
+      width: 150px;
       float: right;
-      margin-left: 800px;
+      border-radius: 30px;
+      background-color: grey;
+      color: lightgrey;
+      border-color: darkgrey;
     }
 
-    .logo {    
-      margin-right: 50px; 
-      width: 50px;  
-      position: absolute;
+    .login {
+      margin-top: 15px;
+      width: 40%;
+      height: 50px;
+      float: right;
     }
 
-  body {
+    .login input {
+      float: right;
+      font-size: 13px;
+      text-align: center;
+      border-radius: 30px;
+      opacity: 1;
+      background-color: grey;
+      color: lightgrey;
+      border-color: darkgrey;
+    }
+
+body {
     background-image: url('../images/clouds.jpg');
-    font-family: 'Source Code Pro';
+    font-family: 'Arial';
     color: grey;
     font-size: 12px;
+    width: 100%;
   }
 
-  #main {
-    width: 100%;
+#main {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 10px;
   }
 
   .left-column {
-    width: 40%;
-    height: 400px;
-/*    background-color: red;
-*/    float: left;
+    margin-top: 6px;
+    width: 20%;
+    height: 1000px;
+    float: left;
     border-radius: 10px; 
   }
 
   .center-column {
-    width: 39%;
-    height: 400px;
+    width: 79%;
+    height: 630px;
     float: left;
-    background-color: white;
-    border-radius: 10px; 
     margin-left: 5px;
-  }
-
-  .right-column {
-    width: 20%;
-    height: 400px;
-    background-color: yellow;
-    float: right;
-    border-radius: 10px; 
   }
 
   .profpic {
-    width: 100px;
+    width: 75px;
     float: left;
     margin-top: 5px;
     margin-left: 5px;
+    height: 120px;
+  }
+
+  .post img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
   }
 
 .name {
@@ -108,18 +125,88 @@ header {
   border: 1px solid grey;
   border-radius: 10px; 
   height: 120px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+.post p {
+  margin-right: 10px;
+}
+
+.user {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  float: left;
+  border-radius: 10px;
+  border-color: 1px grey;
+}
+
+.user img {
+  width: 180px;
+  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;
+}
+
+.user thead {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.user tbody {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.newtweet{
+  margin-top: 20px;
+  width: 85%;
+  float:right;
+}
+
+.newtweet input {
+  border-radius: 3px;
+  padding: 3px;
+  color: darkblue;
+  border-color: #8186C9;
+}
+
+.follow {
+  margin-top: 5px;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+}
+
+.follow h1 {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.follow img {
+  width: 30px;
+  margin-left: 15px;
+  border-radius: 10px;
 }
 
 .trends {
+  margin-top: 5px;
+  position: relative;
   height: 300px;
-  width: 200px;
+  width: 100%;
   background-color: white;
   border-radius: 10px;
-  float: right;
+  float: left;
   text-indent: 5px;  
 }
 
 .trends p {
-  color: blue;
+  color: #8186C9;
+}
+
+.feed {
+  width: 60%;
+  background-color: white;
+  border-radius: 10px; 
 }
